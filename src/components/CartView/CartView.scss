@@ -1,0 +1,16 @@
+.cartView{
+    color: white;
+    text-shadow: 2px 3px 4px black;
+    .cartItem{
+        color: white;
+    }
+    .totalCompra{
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+}
+.cartViewVacio{
+    color: white;
+    margin-left: 5vw;
+    margin-top: 20vh;
+}

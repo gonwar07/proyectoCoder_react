@@ -1,0 +1,24 @@
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2{
+        font-size: 3rem;
+        text-shadow: 2px 2px 10px #5bfffa;
+        margin-top: 5vh;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .inputs{
+            width: 40vw;
+            margin-top: 5vh;
+        }
+        .placeHolder{
+            height: 20vh;
+        }
+    }
+}

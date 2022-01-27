@@ -1,0 +1,30 @@
+.contenedorProductos{
+        display: grid;
+        grid-template-areas: "card card";
+        width: 100vw;
+        justify-content: space-evenly;
+        .tarjetaProd{
+            grid-area: "card";
+            margin-top: 10vh;
+            padding-bottom: 6vh;
+            .prodName{
+                font-weight: bold;
+                font-size: 1.6rem;
+            }
+            .prodPrice{
+                color:#000000a3;
+            }
+            .prodDesc{
+                color: #8205ff;
+            }
+            img{
+                height: 54%;
+            }
+        }
+    }
+
+@media screen and (min-width:1080px) {
+    .contenedorProductos{
+        grid-template-areas: "card card card";
+    }
+}
